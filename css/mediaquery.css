@@ -1,0 +1,585 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* navbar start */
+    .menu-right ul{
+        text-align: center;
+    }
+    .menu-right ul li{
+        background-color:  #1d1d23;
+        border-bottom: 1px solid #373742;
+    }
+    .menu-right ul li a {
+        margin-right: 0;
+    }
+    /* navbar end */
+    /* banner start */
+    .banner-row{
+        margin-top: 55px;
+    }
+    .banner{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        
+    }
+    
+    .banner-right h2, h1{
+        font-size: 30px;
+        word-spacing: 1px;
+    }
+    .banner-right h1{
+        margin-bottom: 25px;
+    }
+    .banner-right p{
+        font-size: 20px;
+    }
+    .banner-right button{
+        margin-top: 30px;
+    }
+    .b-btn{
+        padding: 8px 30px;
+        font-size: 20px;
+    }
+    /* banner end */
+
+    /* about start */
+    .about{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .cm-title{
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .cm-detail{
+        font-size: 18px;
+    }
+    
+    /* about end */
+    /* quality start */
+    .quality{
+        padding-top: 90px;
+        padding-bottom: 10px;
+        overflow: visible;
+    }
+    .quality-left-img{
+        top: 50%;
+        width: 25%;
+       
+    }
+    .quality::before{
+        display: none;
+    }
+    .wave-two{
+        display: none;
+    }
+    .quality-content {
+        padding-bottom: 50px !important;
+    }
+    /* quality end */
+    /* gellery start */
+    .g-sec{
+        padding-top:50px ;
+        padding-bottom:50px ;
+    }
+    .g-sec h2{
+        margin-bottom: 35px;
+    }
+    .g-single:hover .g-single-overlay{
+        transform: translateY(-2px);
+        
+    }
+    /* gellery end */
+    /* enjoy start */
+    .enjoy-sec{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .enjoy{
+        padding: 25px 0;
+    }
+    /* enjoy end */
+    /* emjoy meal start */
+    .enjoy-meal-content{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    }
+    /* emjoy meal end */
+    /* food menu start */
+    .menu-sec{
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+    .m-single{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .m-title{
+        font-size: 25px;
+    }
+    .m-detail{
+        margin-bottom: 10px !important;
+    }
+    /* food menu end */
+    /* footer start */
+    .footer-sec{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .footer-title{
+        font-size: 35px;
+    }
+    .footer-brand ul li img{
+        display: none;
+    }
+    .footer-menu{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .footer-menu .li:not(:last-child) {
+        margin-right: 0;
+    }
+    .footer-menu ul li a{
+        margin-left: 10px;
+        padding: 5px;
+    }
+    .footer-icon ul li a{
+        height: 30px;
+        width: 30px;
+        margin-left: 7px !important;
+
+    }
+    .footer-icon ul li a i{
+        font-size: 20px;
+        
+    }
+    /* footer end */
+}
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* navbar start */
+    .menu-right ul{
+        text-align: center;
+    }
+    .menu-right ul li{
+        background-color:  #1d1d23;
+        border-bottom: 1px solid #373742;
+    }
+    .menu-right ul li a {
+        margin-right: 0;
+    }
+    /* navbar end */
+
+    /* banner start */
+    .banner-row{
+        margin-top: 30px ;
+    }
+    .banner{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        
+    }
+    
+    .banner-right h2, h1{
+        font-size: 45px;
+        word-spacing: 1px;
+    }
+    .banner-right h1{
+        margin-bottom: 25px;
+    }
+    .banner-right p{
+        font-size: 22px;
+    }
+    .banner-right button{
+        margin-top: 30px;
+    }
+    .b-btn{
+        padding: 10px 35px;
+        font-size: 22px;
+    }
+    /* banner end */
+
+    /* about start */
+    .about{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .cm-title{
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .cm-detail{
+        font-size: 20px;
+    }
+    
+    /* about end */
+    /* quality start */
+    .quality{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .quality-left-img{
+        top: 60%;
+        width: 25%;
+       
+    }
+    .quality::before{
+        display: none;
+    }
+    .wave-one{
+        display: none;
+    }
+    .quality-content {
+        padding-bottom: 0 !important;
+    }
+    /* quality end */
+    /* gellery start */
+    .g-sec{
+        padding-top:100px ;
+        padding-bottom:100px ;
+    }
+    .g-sec h2{
+        margin-bottom: 40px;
+    }
+    
+   
+    /* gellery end */
+    /* enjoy start */
+    .enjoy-sec{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    /* .wave-two{
+        padding-bottom: 50px;
+    } */
+    /* enjoy end */
+    /* food menu start */
+    .m-single{
+        text-align: center;
+    }
+    /* food menu end */
+    /* emjoy meal start */
+    .enjoy-meal-content{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    }
+    .enjoy-m-img{
+        top: -13%;
+        left: -30%;
+    }    
+    .enjoy-meal-content{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .enjoy-m-img img{
+        height: 52%;
+        width: 52%;
+    }
+    /* emjoy meal end */
+    /* food menu start */
+    .menu-sec{
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+    }
+    .m-single{
+        margin-bottom: 20px;
+    }
+    .m-title{
+        font-size: 25px;
+    }
+    /* food menu end */
+    /* footer start */
+    .footer-sec{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .footer-title{
+        font-size: 40px;
+    }
+    .footer-sec .logo-or{
+        width: 75%;
+        text-align: right;
+    }
+    .footer-menu{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .footer-brand ul li img{
+        width: 45%;
+    }
+    .footer-sec .footer-brand ul li:not(:last-child) {
+        margin-right: 0;
+    }
+    .footer-menu .li:not(:last-child) {
+        margin-right: 0;
+    }
+    .footer-menu ul li a{
+        margin-left: 10px;
+        padding: 5px;
+    }
+    .footer-icon ul li a{
+        height: 36px;
+        width: 36px;
+        margin-left: 7px !important;
+    }
+    .footer-icon ul li a i{
+        font-size: 27px;
+        
+    }
+    /* footer end */
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* navbar start */
+    .menu-right ul{
+        text-align: center;
+    }
+    .menu-right ul li{
+        background-color:  #1d1d23;
+        border-bottom: 1px solid #373742;
+    }
+    .menu-right ul li a {
+        margin-right: 0;
+    }
+    /* navbar end */
+
+    /* banner start */
+    .banner{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .banner-right h2, h1{
+        font-size: 45px;
+        word-spacing: 1px;
+    }
+    .banner-right h1{
+        margin-bottom: 25px;
+    }
+    .banner-right p{
+        font-size: 20px;
+    }
+    .banner-right button{
+        margin-top: 30px;
+    }
+    .b-btn{
+        padding: 10px 35px;
+        font-size: 20px;
+    }
+    /* banner end */
+
+    /* about start */
+    .cm-title{
+        font-size: 45px;
+        margin-bottom: 35px;
+    }
+    .cm-detail{
+        font-size: 22px;
+    }
+    
+    /* about end */
+    /* quality start */
+    .quality{
+        padding-top: 150px;
+    }
+    .quality-left-img{
+        /* top: 65%; */
+        width: 25%;
+       
+    }
+    .quality::before{
+        width: 70%;
+        height: 70%;
+        height: 60%;
+    }
+    .wave-two{
+        bottom:-20.05%;
+       
+    }
+    /* quality end */
+    /* gellery start */
+    .g-sec{
+        padding-top:100px ;
+        padding-bottom:100px ;
+    }
+    .g-sec h2{
+        margin-bottom: 50px;
+    }
+    /* gellery end */
+    /* food menu start */
+    .menu-sec{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .m-single{
+        margin-bottom: 35px;
+    }
+    .m-title{
+        font-size: 25px;
+    }
+    /* food menu end */
+    /* enjoy meal start */
+    .enjoy-m-img{
+        top: -8%;
+        left: 0;
+    }    
+    .enjoy-meal-content{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .enjoy-m-img img{
+        height: 52%;
+        width: 52%;
+    }
+    /* enjoy meal end */
+    /* footer start */
+    .footer-title{
+        font-size: 50px;
+    }
+    /* footer end */
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* banner start */
+    .banner{
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+    .banner-right h2, h1{
+        font-size: 50px;
+        word-spacing: 1px;
+    }
+    /* banner end */
+
+    /* about start */
+    .cm-title{
+        font-size: 45px;
+        /* margin-bottom: 45px; */
+    }
+    .cm-detail{
+        font-size: 25px;
+    }
+    /* about end */
+    /* quality start */
+    .quality{
+        padding-top: 180px;
+    }
+    .quality-left-img{
+        /* top: 65%; */
+        width: 25%;
+       
+    }
+    .quality::before{
+        width: 70%;
+        height: 70%;
+        height: 60%;
+    }
+    .wave-two{
+        bottom:-20%;
+       
+    }
+    /* quality end */
+    /* enjoy meal start */
+    .enjoy-m-img{
+        top: -12%;
+        left: 0;
+    }    
+    .enjoy-meal-content{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .enjoy-m-img img{
+        height: 79%;
+        width: 79%;
+    }
+    /* enjoy meal end */
+    /* gallery start */
+    .g-single-overlay ul li .single-logo{
+        margin-bottom: 0;
+    }
+    .g-single:hover .g-single-overlay{
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(-2px);
+        
+    }
+    /* gallery end */
+    /* food menu start */
+    .menu-sec{
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+    }
+    /* food menu end */
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    /* banner start */
+    .banner{
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    /* banner end */
+    /* about start */
+    .cm-detail{
+        font-size: 28px;
+    }
+    /* about end */
+    /* quality start */
+    .quality{
+        padding-top: 200px;
+    }
+    .quality-left-img{
+        /* top: 65%; */
+        width: 25%;
+       
+    }
+    .quality::before{
+        width: 70%;
+        height: 70%;
+        height: 60%;
+    }
+    .wave-two{
+        bottom:-19%;
+       
+    }
+    /* quality end */
+    /* food menu start */
+    .menu-sec{
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    /* food menu end */
+    /* enjoy meal start */
+    .enjoy-m-img{
+        top: -12%;
+        left: 0;
+    }    
+    .enjoy-meal-content{
+        padding-top: 110px;
+        padding-bottom: 110px;
+    }
+    .enjoy-m-img img{
+        height: 85%;
+        width: 85%;
+    }
+    /* enjoy meal end */
+}
+
+/* XX-Large devices (larger desktops) */
+@media (max-width: 1400px) {
+    .quality-content{
+        padding-bottom: 80px;
+    }
+
+}
